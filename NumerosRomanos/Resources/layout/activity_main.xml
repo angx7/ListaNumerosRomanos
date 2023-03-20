@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50sp"
+    android:background="#153f69">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:text="Ingrese un número [1, 3999]"
+        android:background="@android:color/transparent"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numero"
+        android:textSize="60px"
+        android:background="#557996"
+        android:textColor="#000"
+        android:inputType="number"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:text="Ingrese un número [1, 3999]"
+        android:background="@android:color/transparent"
+        android:textColor="#fff"
+        android:layout_marginTop="25sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numero2"
+        android:textSize="60px"
+        android:background="#557996"
+        android:textColor="#000"
+        android:inputType="number"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CONVERTIR"
+        android:textSize="60px"
+        android:background="#021d34"
+        android:textColor="#fff"
+        android:id="@+id/ejecutar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350sp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="70px"
+        android:background="@android:color/transparent"
+        android:textColor="#fff"
+        android:id="@+id/lista"
+        android:scrollbars="vertical"
+        android:textAlignment="center"/>
+    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LIMPIAR"
+        android:textSize="60px"
+        android:background="#021d34"
+        android:textColor="#fff"
+        android:id="@+id/ejecutar2"/>
+</LinearLayout>
